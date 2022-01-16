@@ -20,8 +20,8 @@ public class ManagerMovie {
 
     //Метод для добавления фильмов
     public DataMovie[] addMovie(DataMovie film) {
-        int lenght = items.length + 1;
-        DataMovie[] tmp = new DataMovie[lenght];
+        int length = items.length + 1;
+        DataMovie[] tmp = new DataMovie[length];
         // for (int i = 0; i < items.length; i++) {
         // tmp[i]=items[i];
         //}
@@ -47,7 +47,7 @@ public class ManagerMovie {
     }
 
 
-    //Метод, которотый выводит нужное количество фильмов
+    //Метод, который выводит нужное количество фильмов
     public DataMovie[] getNMovies () {
         int count = this.moviesQuantity;
         if (count > items.length)
